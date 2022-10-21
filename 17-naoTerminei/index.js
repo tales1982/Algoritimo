@@ -40,10 +40,7 @@ let teste3 = teste1 % 100
 console.log(teste3);
 let teste4 = teste1 % 400
 console.log(teste4);
-if (teste2 === 0 && teste3!== 0 ){
-  alert("O ano é um ano bissexto (tem 366 dias).");
-}else if(teste4 === 0
-  ){
+if (teste2 === 0 && teste3!== 0 ||teste4 === 0){
   alert("O ano é um ano bissexto (tem 366 dias).");
 }
 else{
