@@ -1,0 +1,7 @@
+const nome = () => console.log('tales' + i)
+setInterval(nome, 1000)
+for(let i = 1;  ;i++){
+
+}
+
+
