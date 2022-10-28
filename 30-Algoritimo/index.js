@@ -6,5 +6,6 @@
 
 while(c < f){
     c += p
-    console.log(c + " " )
+    if(c)
+    console.log(c + "" )
 }
