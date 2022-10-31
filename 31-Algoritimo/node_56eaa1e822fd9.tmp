@@ -1,0 +1,12 @@
+//Fazer uma contagem regressiva e marca os multiplos de [5]
+let n1 = 30
+let i = 1
+
+while(i <= n1){
+  
+  if(i %5 == 0){
+    console.log(`[${i}]`)
+    i++
+}
+  }
+  
