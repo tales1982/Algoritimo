@@ -1,16 +1,18 @@
-//Fazer uma contagem regressiva e marca os multiplos de [5]
-let n1 = 30
-let i = 1
-let c =4
+let contador = 1
+let par = 0
+let impar = 0
 
-while(i <= n1){
-  
-  if(i %c == 0){
-    console.log(`[${i}]`)
+while(contador <=5){
+  let numero = Number(prompt("digite um numero"))
+  if(numero %2 == 0){
+    par += numero
     
-}else{
-  console.log(i)
-}
-i++
+  }else{
+    impar += numero
+    
   }
-  
+contador ++
+}
+
+console.log("A soma dos pares deu " + par)
+console.log("A soma dos impares deu " + impar);
