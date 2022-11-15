@@ -5,10 +5,10 @@ let impar = 0
 while(contador <=5){
   let numero = Number(prompt("digite um numero"))
   if(numero %2 == 0){
-    par += numero
+    par = par + numero // posso usar assim no casso estou somente pegando o resultado e somando 
     
   }else{
-    impar += numero
+    impar += numero // ou simplificar dessa maneira.
     
   }
 contador ++
