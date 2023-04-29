@@ -1,0 +1,2 @@
+# Algoritimo
+Praticas de algoritimos.
